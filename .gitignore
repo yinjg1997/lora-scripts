@@ -16,7 +16,9 @@ wd14_tagger_model
 
 train/*
 logs/*
-sd-models/*
+sd-models/SDXL/*
+sd-models/SD15/*
+sd-models/FLUX/*
 toml/autosave/*
 config/autosave/*
 !sd-models/put stable diffusion model here.txt
@@ -27,4 +29,4 @@ tests/
 huggingface/hub/models*
 huggingface/hub/version_diffusers_cache.txt
 
-datasets/images
+datasets/images*
