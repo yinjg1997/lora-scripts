@@ -5,7 +5,7 @@ $pretrained_model = "./sd-models/model.ckpt" # base model path | 底模路径
 $model_type = "sd1.5" # sd1.5 sd2.0 sdxl model | 可选 sd1.5 sd2.0 sdxl。SD2.0模型 2.0模型下 clip_skip 默认无效
 $parameterization = 0 # parameterization | 参数化 本参数需要在 model_type 为 sd2.0 时才可启用
 
-$train_data_dir = "./train/aki" # train dataset path | 训练数据集路径
+$train_data_dir = "./datasets/images" # train dataset path | 训练数据集路径
 $reg_data_dir = "" # directory for regularization images | 正则化数据集路径，默认不使用正则化图像。
 
 # Network settings | 网络设置

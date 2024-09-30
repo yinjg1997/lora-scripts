@@ -4,7 +4,7 @@ Schema.intersect([
     }).description("训练用模型"),
 
     Schema.object({
-        train_data_dir: Schema.string().role('filepicker', { type: "folder", internal: "train-dir" }).default("./train/aki").description("训练数据集路径"),
+        train_data_dir: Schema.string().role('filepicker', { type: "folder", internal: "train-dir" }).default("./datasets/images").description("训练数据集路径"),
         reg_data_dir: Schema.string().role('filepicker', { type: "folder", internal: "train-dir" }).description("正则化数据集路径。默认留空，不使用正则化图像"),
         resolution: Schema.string().default("512,512").description("训练图片分辨率，宽x高。支持非正方形，但必须是 64 倍数。"),
     }).description("数据集设置"),
